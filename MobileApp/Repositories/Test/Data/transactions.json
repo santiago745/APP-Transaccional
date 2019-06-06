@@ -1,0 +1,68 @@
+[
+    {
+        "productCode": "CONCOM",
+        "contract": "170000000097",
+        "planCode": "01",
+        "eventNumber": "1000004253",
+        "transactionNumber": "1000004253",
+        "effectiveDate": "2015-04-20",
+        "netValue": "$60.00",
+        "rawValue": "$60.00",
+        "descriptionText": "Prueba 1"
+    },
+    {
+        "productCode": "CONCOM",
+        "contract": "170000000097",
+        "planCode": "01",
+        "eventNumber": "1000004244",
+        "transactionNumber": "1000004244",
+        "effectiveDate": "2015-04-07",
+        "netValue": "$600,000.00",
+        "rawValue": "$600,000.00",
+        "descriptionText": "Prueba 2"
+    },
+    {
+        "productCode": "CONCOM",
+        "contract": "170000000097",
+        "planCode": "01",
+        "eventNumber": "1000000231",
+        "transactionNumber": "1000000231",
+        "effectiveDate": "2014-08-26",
+        "netValue": "($641,570.74)",
+        "rawValue": "($641,570.74)",
+        "descriptionText": "Prueba 3"
+    },
+    {
+        "productCode": "CONCOM",
+        "contract": "170000000097",
+        "planCode": "01",
+        "eventNumber": "1000000235",
+        "transactionNumber": "1000000235",
+        "effectiveDate": "2014-08-26",
+        "netValue": "($159,751,113.91)",
+        "rawValue": "($159,751,113.91)",
+        "descriptionText": "Prueba 4"
+    },
+    {
+        "productCode": "CONCOM",
+        "contract": "170000000097",
+        "planCode": "01",
+        "eventNumber": "2000000034",
+        "transactionNumber": "2000000034",
+        "effectiveDate": "2014-08-12",
+        "netValue": "$106,329,005.52",
+        "rawValue": "$106,329,005.52",
+        "descriptionText": "Prueba 5"
+    },
+    {
+        "productCode": "CONCOM",
+        "contract": "170000000097",
+        "planCode": "01",
+        "eventNumber": "2000000036",
+        "transactionNumber": "2000000036",
+        "effectiveDate": "2014-08-12",
+        "netValue": "$54,063,679.13",
+        "rawValue": "$54,063,679.13",
+        "descriptionText": "Prueba 6"
+    }
+]

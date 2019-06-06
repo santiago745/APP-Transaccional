@@ -1,0 +1,341 @@
+[
+    {
+        "reportTypeId": 373,
+        "reportCode": "OMLIQ Certif Traslados",
+        "caption": "Certificado de Transaldo",
+        "fields": [
+            {
+                "key": "PSP01_TipoCuenta",
+                "caption": "Tipo de Cuenta",
+                "FieldType": 5,
+                "options": [
+                    {
+                        "Caption": "Corriente",
+                        "Value": "Corriente"
+                    },
+                    {
+                        "Caption": "Ahorros",
+                        "Value": "Ahorros"
+                    }
+                ]
+            },
+            {
+                "key": "PSP01_Cuenta",
+                "caption": "Número de Cuenta",
+                "FieldType": 4,
+                "options": null
+            },
+            {
+                "key": "PSP01_Entidad",
+                "caption": "Entidad Financiera",
+                "FieldType": 5,
+               "options": [
+                    {
+                        "Caption": "BANCO DE BOGOTA",
+                        "Value": "BANCO DE BOGOTA"
+                    },
+                    {
+                        "Caption": "BANCOLOMBIA",
+                        "Value": "BANCOLOMBIA"
+                    },
+                    {
+                        "Caption": "SCOTIAN BANK",
+                        "Value": "SCOTIAN BANK"
+                    },
+                    {
+                        "Caption": "BANCO COLPATRIA",
+                        "Value": "BANCO COLPATRIA"
+                    },
+                    {
+                        "Caption": "BANCO DE CREDITO",
+                        "Value": "BANCO DE CREDITO"
+                    },
+                    {
+                        "Caption": "RBS SITUADOS",
+                        "Value": "RBS SITUADOS"
+                    },
+                    {
+                        "Caption": "AJA",
+                        "Value": "AJA"
+                    },
+                    {
+                        "Caption": "BANCO DE OCCIDENTE",
+                        "Value": "BANCO DE OCCIDENTE"
+                    },
+                    {
+                        "Caption": "SCOTIABANK CTR AFPS",
+                        "Value": "SCOTIABANK CTR AFPS"
+                    },
+                    {
+                        "Caption": "SCOTIABANK CTR ISS",
+                        "Value": "SCOTIABANK CTR ISS"
+                    },
+                    {
+                        "Caption": "SCOTIABANK CTR PRIMA MEDIA",
+                        "Value": "SCOTIABANK CTR PRIMA MEDIA"
+                    },
+                    {
+                        "Caption": "SCOTIABANK BONOS PENSIONALES",
+                        "Value": "SCOTIABANK BONOS PENSIONALES"
+                    },
+                    {
+                        "Caption": "SCOTIABANK S.ADICIONALES Y SINIESTROS",
+                        "Value": "SCOTIABANK S.ADICIONALES Y SINIESTROS"
+                    },
+                    {
+                        "Caption": "SANTAnDER",
+                        "Value": "SANTAnDER"
+                    },
+                    {
+                        "Caption": "Temp",
+                        "Value": "Temp"
+                    },
+                    {
+                        "Caption": "BANCO DE LA REPUBLICA",
+                        "Value": "BANCO DE LA REPUBLICA"
+                    },
+                    {
+                        "Caption": "BANCO ANGLO COLOMBIANO",
+                        "Value": "BANCO ANGLO COLOMBIANO"
+                    },
+                    {
+                        "Caption": "BANCO SANTANDER",
+                        "Value": "BANCO SANTANDER"
+                    },
+                    {
+                        "Caption": "BANCO DE CREDITO",
+                        "Value": "BANCO DE CREDITO"
+                    },
+                    {
+                        "Caption": "BANCO UNION",
+                        "Value": "BANCO UNION"
+                    },
+                    {
+                        "Caption": "BANCO COOPERATIVO-BANCOOP",
+                        "Value": "BANCO COOPERATIVO-BANCOOP"
+                    },
+                    {
+                        "Caption": "BANCO STANDAR CHARTERED",
+                        "Value": "BANCO STANDAR CHARTERED"
+                    },
+                    {
+                        "Caption": "CITIBANK",
+                        "Value": "CITIBANK"
+                    },
+                    {
+                        "Caption": "BANCO SUDAMERIS",
+                        "Value": "BANCO SUDAMERIS"
+                    },
+                    {
+                        "Caption": "BANCO COLOMBO AMERICANO",
+                        "Value": "BANCO COLOMBO AMERICANO"
+                    },
+                    {
+                        "Caption": "BANCO ANDINO",
+                        "Value": "BANCO ANDINO"
+                    },
+                    {
+                        "Caption": "BANCO MERCANTIL",
+                        "Value": "BANCO MERCANTIL"
+                    },
+                    {
+                        "Caption": "BANCAFE",
+                        "Value": "BANCAFE"
+                    },
+                    {
+                        "Caption": "BANCO GANADERO",
+                        "Value": "BANCO GANADERO"
+                    },
+                    {
+                        "Caption": "BANCO POPULAR",
+                        "Value": "BANCO POPULAR"
+                    },
+                    {
+                        "Caption": "BANCO DEL ESTADO",
+                        "Value": "BANCO DEL ESTADO"
+                    },
+                    {
+                        "Caption": "BANCO TEQUENDAMA",
+                        "Value": "BANCO TEQUENDAMA"
+                    },
+                    {
+                        "Caption": "CAJA AGRARIA",
+                        "Value": "CAJA AGRARIA"
+                    },
+                    {
+                        "Caption": "BANCO CENTRAL HIPOTECARIO",
+                        "Value": "BANCO CENTRAL HIPOTECARIO"
+                    },
+                    {
+                        "Caption": "CAV CONAVI",
+                        "Value": "CAV CONAVI"
+                    },
+                    {
+                        "Caption": "CAV GRANAHORRAR",
+                        "Value": "CAV GRANAHORRAR"
+                    },
+                    {
+                        "Caption": "SKANDIA SOCIEDAD FIDUCIARIA",
+                        "Value": "SKANDIA SOCIEDAD FIDUCIARIA"
+                    },
+                    {
+                        "Caption": "BANCO UCONAL",
+                        "Value": "BANCO UCONAL"
+                    },
+                    {
+                        "Caption": "BANCO DEL PACIFICO",
+                        "Value": "BANCO DEL PACIFICO"
+                    },
+                    {
+                        "Caption": "INTERBANCO",
+                        "Value": "INTERBANCO"
+                    },
+                    {
+                        "Caption": "COOPDESARROLLO",
+                        "Value": "COOPDESARROLLO"
+                    },
+                    {
+                        "Caption": "C.A.V COLPATRIA",
+                        "Value": "C.A.V COLPATRIA"
+                    },
+                    {
+                        "Caption": "BANCO SANTANDER",
+                        "Value": "BANCO SANTANDER"
+                    },
+                    {
+                        "Caption": "FONDO VOLUNTARIO DE PENSIONES",
+                        "Value": "FONDO VOLUNTARIO DE PENSIONES"
+                    },
+                    {
+                        "Caption": "BANCOMERCIO",
+                        "Value": "BANCOMERCIO"
+                    },
+                    {
+                        "Caption": "C.A.V. CONCASA",
+                        "Value": "C.A.V. CONCASA"
+                    },
+                    {
+                        "Caption": "AV VILLAS",
+                        "Value": "AV VILLAS"
+                    },
+                    {
+                        "Caption": "C.A.V. COLMENA",
+                        "Value": "C.A.V. COLMENA"
+                    },
+                    {
+                        "Caption": "C.A.V. COLPATRIA",
+                        "Value": "C.A.V. COLPATRIA"
+                    },
+                    {
+                        "Caption": "SKANDIA SEGUROS DE COLOMBIA",
+                        "Value": "SKANDIA SEGUROS DE COLOMBIA"
+                    },
+                    {
+                        "Caption": "CIA.DE SEGUROS DE VIDA SKANDIA",
+                        "Value": "CIA.DE SEGUROS DE VIDA SKANDIA"
+                    },
+                    {
+                        "Caption": "BANCO CAJA SOCIAL",
+                        "Value": "BANCO CAJA SOCIAL"
+                    },
+                    {
+                        "Caption": "BANCO SUPERIOR",
+                        "Value": "BANCO SUPERIOR"
+                    },
+                    {
+                        "Caption": "CUPOCREDITO",
+                        "Value": "CUPOCREDITO"
+                    },
+                    {
+                        "Caption": "CORFIVALLE S.A.",
+                        "Value": "CORFIVALLE S.A."
+                    },
+                    {
+                        "Caption": "BANCO DAVIVIENDA",
+                        "Value": "BANCO DAVIVIENDA"
+                    },
+                    {
+                        "Caption": "COOMEVA",
+                        "Value": "COOMEVA"
+                    },
+                    {
+                        "Caption": "AV VILLAS",
+                        "Value": "AV VILLAS"
+                    },
+                    {
+                        "Caption": "SERVIBANCA",
+                        "Value": "SERVIBANCA"
+                    },
+                    {
+                        "Caption": "aaaa",
+                        "Value": "aaaa"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "reportTypeId": 369,
+        "reportCode": "OMLIQ Certif Vinculacion",
+        "caption": "Certificado de Vinculación",
+        "fields": [
+            {
+                "key": "PSP01_Destino",
+                "caption": "Dirigido a:",
+                "FieldType": 5,
+                "options": [
+                    {
+                        "Caption": "quien interese",
+                        "Value": "quien interese"
+                    },
+                    {
+                        "Caption": "la Embajada Británica",
+                        "Value": "la Embajada Británica"
+                    },
+                    {
+                        "Caption": "la Embajada de Canadá",
+                        "Value": "la Embajada de Canadá"
+                    },
+                    {
+                        "Caption": "la Embajada de El Salvador",
+                        "Value": "la Embajada de El Salvador"
+                    },
+                    {
+                        "Caption": "la Embajada de España",
+                        "Value": "la Embajada de España"
+                    },
+                    {
+                        "Caption": "la Embajada de Estados Unidos de América",
+                        "Value": "la Embajada de Estados Unidos de América"
+                    },
+                    {
+                        "Caption": "la Embajada de Francia",
+                        "Value": "la Embajada de Francia"
+                    },
+                    {
+                        "Caption": "la Embajada de Inglaterra",
+                        "Value": "la Embajada de Inglaterra"
+                    },
+                    {
+                        "Caption": "la Embajada de México",
+                        "Value": "la Embajada de México"
+                    },
+                    {
+                        "Caption": "la Embajada de Suecia",
+                        "Value": "la Embajada de Suecia"
+                    },
+                    {
+                        "Caption": "Otros",
+                        "Value": ""
+                    }
+                ]
+            },
+            {
+                "key": "PSP01_ConSaldo",
+                "caption": "Incluir Saldo",
+                "FieldType": 1,
+                "options": null
+            }
+        ]
+    }
+]

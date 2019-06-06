@@ -1,0 +1,167 @@
+{
+  "AuthenticationStatus": 1,
+  "AuthenticationMessage": "mensaje",
+  "FailedAttempts": "NO",
+  "Token": "123asgg1566ghh",
+  "DocNumber": "test",
+  "DocType": "C",
+  "PendingActionRequest": {
+                            "Name": "Registrar",
+                            "PendingActionType": 3,
+                            "FailAttempts": 0,
+                            "Message": "Mensaje de prueba",
+                            "Questions": [
+                                            {
+                                              "IdQuestion": 0,
+                                              "Text": "Texto del cuerpo de términos y condiciones o titulo del mensaje de guardar el dispositivo  o preguntas de seguridad.",
+                                              "QuestionType": 0,
+                                              "DefaultAnswers": [
+                                                                  {
+                                                                    "QuestionId": 0,
+                                                                    "AnswerId": 0,
+                                                                    "Text": "Acepto"
+                                                                  },
+                                                                 {
+                                                                 "QuestionId": 1,
+                                                                 "AnswerId": 1,
+                                                                 "Text": "Cancelar"
+                                                                 }
+
+                                                                ]
+                                            },
+                                          {
+                                          "IdQuestion": 1,
+                                          "Text": "Texto del cuerpo de términos y condiciones o titulo del mensaje de guardar el dispositivo o preguntas de seguridad.",
+                                          "QuestionType": 1,
+                                          "DefaultAnswers": [
+                                                             {
+                                                             "QuestionId": 2,
+                                                             "AnswerId": 2,
+                                                             "Text": "Acepto"
+                                                             },
+                                                             {
+                                                             "QuestionId": 3,
+                                                             "AnswerId": 3,
+                                                             "Text": "Cancelar"
+                                                             }
+                                                             
+                                                             ]
+                                          },
+                                          {
+                                          "IdQuestion": 2,
+                                          "Text": "Texto del cuerpo de términos y condiciones o titulo del mensaje de guardar el dispositivo o preguntas de seguridad.",
+                                          "QuestionType": 2,
+                                          "DefaultAnswers": [
+                                                             {
+                                                             "QuestionId": 4,
+                                                             "AnswerId": 4,
+                                                             "Text": "Acepto"
+                                                             },
+                                                             {
+                                                             "QuestionId": 5,
+                                                             "AnswerId": 5,
+                                                             "Text": "Cancelar"
+                                                             }
+                                                             
+                                                             ]
+                                          },
+                                          {
+                                          "IdQuestion": 3,
+                                          "Text": "Texto del cuerpo de términos y condiciones o titulo del mensaje de guardar el dispositivo o preguntas de seguridad.",
+                                          "QuestionType": 3,
+                                          "DefaultAnswers": [
+                                                             {
+                                                             "QuestionId": 6,
+                                                             "AnswerId": 6,
+                                                             "Text": "Acepto"
+                                                             },
+                                                             {
+                                                             "QuestionId": 7,
+                                                             "AnswerId": 7,
+                                                             "Text": "Cancelar"
+                                                             }
+                                                             
+                                                             ]
+                                          },
+                                          {
+                                          "IdQuestion": 4,
+                                          "Text": "Texto del cuerpo de términos y condiciones o titulo del mensaje de guardar el dispositivo o preguntas de seguridad.",
+                                          "QuestionType": 4,
+                                          "DefaultAnswers": [
+                                                             {
+                                                             "QuestionId": 8,
+                                                             "AnswerId": 8,
+                                                             "Text": "Acepto"
+                                                             },
+                                                             {
+                                                             "QuestionId": 9,
+                                                             "AnswerId": 9,
+                                                             "Text": "Cancelar"
+                                                             }
+                                                             
+                                                             ]
+                                          },
+                                          {
+                                          "IdQuestion": 5,
+                                          "Text": "Texto del cuerpo de términos y condiciones o titulo del mensaje de guardar el dispositivo o preguntas de seguridad.",
+                                          "QuestionType": 5,
+                                          "DefaultAnswers": [
+                                                             {
+                                                             "QuestionId": 10,
+                                                             "AnswerId": 10,
+                                                             "Text": "Acepto"
+                                                             },
+                                                             {
+                                                             "QuestionId": 11,
+                                                             "AnswerId": 11,
+                                                             "Text": "Cancelar"
+                                                             }
+                                                             
+                                                             ]
+                                          },
+                                          {
+                                          "IdQuestion": 6,
+                                          "Text": "Texto del cuerpo de términos y condiciones o titulo del mensaje de guardar el dispositivo o preguntas de seguridad.",
+                                          "QuestionType": 6,
+                                          "DefaultAnswers": [
+                                                             {
+                                                             "QuestionId": 12,
+                                                             "AnswerId": 12,
+                                                             "Text": "Acepto"
+                                                             },
+                                                             {
+                                                             "QuestionId": 13,
+                                                             "AnswerId": 13,
+                                                             "Text": "Cancelar"
+                                                             }
+                                                             
+                                                             ]
+                                          },
+                                          {
+                                          "IdQuestion": 7,
+                                          "Text": "Texto del cuerpo de términos y condiciones o titulo del mensaje de guardar el dispositivo o preguntas de seguridad.",
+                                          "QuestionType": 7,
+                                          "DefaultAnswers": [
+                                                             {
+                                                             "QuestionId": 14,
+                                                             "AnswerId": 14,
+                                                             "Text": "Acepto"
+                                                             },
+                                                             {
+                                                             "QuestionId": 15,
+                                                             "AnswerId": 15,
+                                                             "Text": "Cancelar"
+                                                             }
+                                                             
+                                                             ]
+                                          }
+
+                                          ]
+                          },
+  "PersonInfo": {
+            "Email": "Prueba email",
+            "DocNumber": "test",
+            "DocType": "C",
+            "Name": "Prueba Nombre"
+          }
+}

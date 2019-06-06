@@ -1,0 +1,66 @@
+[
+    {
+        "reportTypeId": 369,
+        "reportCode": "OMLIQ Certif Vinculacion",
+        "caption": "Certificado de Afiliación",
+        "fields": [
+            {
+                "key": "PSP01_Destino",
+                "caption": "Dirigido a:",
+                "FieldType": 5,
+                "options": [
+                    {
+                        "Caption": "quien interese",
+                        "Value": "quien interese"
+                    },
+                    {
+                        "Caption": "la Embajada Británica",
+                        "Value": "la Embajada Británica"
+                    },
+                    {
+                        "Caption": "la Embajada de Canadá",
+                        "Value": "la Embajada de Canadá"
+                    },
+                    {
+                        "Caption": "la Embajada de El Salvador",
+                        "Value": "la Embajada de El Salvador"
+                    },
+                    {
+                        "Caption": "la Embajada de España",
+                        "Value": "la Embajada de España"
+                    },
+                    {
+                        "Caption": "la Embajada de Estados Unidos de América",
+                        "Value": "la Embajada de Estados Unidos de América"
+                    },
+                    {
+                        "Caption": "la Embajada de Francia",
+                        "Value": "la Embajada de Francia"
+                    },
+                    {
+                        "Caption": "la Embajada de Inglaterra",
+                        "Value": "la Embajada de Inglaterra"
+                    },
+                    {
+                        "Caption": "la Embajada de México",
+                        "Value": "la Embajada de México"
+                    },
+                    {
+                        "Caption": "la Embajada de Suecia",
+                        "Value": "la Embajada de Suecia"
+                    },
+                    {
+                        "Caption": "Otros",
+                        "Value": ""
+                    }
+                ]
+            },
+            {
+                "key": "PSP01_ConSaldo",
+                "caption": "Incluir Saldo",
+                "FieldType": 1,
+                "options": null
+            }
+        ]
+    }
+]

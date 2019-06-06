@@ -1,0 +1,253 @@
+{
+    "Number": "100001006090",
+    "ProductCode": "MFUND",
+    "PlanCode": "SKAN",
+    "Groups": [
+               {
+               "Caption": "Información del Contrato",
+               "Fields": [
+                          {
+                          "Key": "ProductName",
+                          "Caption": "Producto",
+                          "Tooltip": null,
+                          "Type": 0,
+                          "SingleValue": "Old Mutual Fondo de Pensiones Voluntarias",
+                          "ListValue": null,
+                          "RecordValue": null
+                          },
+                          {
+                          "Key": "ProgramName",
+                          "Caption": "Programa",
+                          "Tooltip": null,
+                          "Type": 0,
+                          "SingleValue": "Old Mutual Inversión",
+                          "ListValue": null,
+                          "RecordValue": null
+                          },
+                          {
+                          "Key": "AfiliationDate",
+                          "Caption": "Fecha de Afiliación",
+                          "Tooltip": null,
+                          "Type": 0,
+                          "SingleValue": "2006-08-01",
+                          "ListValue": null,
+                          "RecordValue": null
+                          },
+                          {
+                          "Key": "ContractName",
+                          "Caption": "Nombre Contrato",
+                          "Tooltip": null,
+                          "Type": 0,
+                          "SingleValue": "Andres y Juanse",
+                          "ListValue": null,
+                          "RecordValue": null
+                          },
+                          {
+                          "Key": "ContractGoal",
+                          "Caption": "Objetivo Contrato",
+                          "Tooltip": null,
+                          "Type": 0,
+                          "SingleValue": "Ahorros",
+                          "ListValue": null,
+                          "RecordValue": null
+                          }
+                          ]
+               },
+               {
+               "Caption": "Perfil de Riesgo",
+               "Fields": [
+                          {
+                          "Key": "RiskProfileCode",
+                          "Caption": "Perfil de Riesgo",
+                          "Tooltip": null,
+                          "Type": 0,
+                          "SingleValue": "Extremo",
+                          "ListValue": null,
+                          "RecordValue": null
+                          },
+                          {
+                          "Key": "RiskProfileDescription",
+                          "Caption": "Descripción",
+                          "Tooltip": null,
+                          "Type": 0,
+                          "SingleValue": "El inversionista extremo está enfocado en maximizar su inversión, comprendiendo las volatilidades del mercado y soportando períodos largos de rentabilidad negativa.",
+                          "ListValue": null,
+                          "RecordValue": null
+                          },
+                          {
+                          "Key": "RiskProfileHorizon",
+                          "Caption": "Horizonte de Inversión",
+                          "Tooltip": null,
+                          "Type": 0,
+                          "SingleValue": "4.5 años o más.",
+                          "ListValue": null,
+                          "RecordValue": null
+                          },
+                          {
+                          "Key": "RiskProfileTolerance",
+                          "Caption": "Tolerancia al Riesgo",
+                          "Tooltip": null,
+                          "Type": 0,
+                          "SingleValue": "Alta tolerancia al riesgo.",
+                          "ListValue": null,
+                          "RecordValue": null
+                          },
+                          {
+                          "Key": "RiskProfileReference",
+                          "Caption": "Portafolios de Referencia",
+                          "Tooltip": null,
+                          "Type": 0,
+                          "SingleValue": "Portafolios concentrados mayoritariamente en inversiones de renta variable o acciones.",
+                          "ListValue": null,
+                          "RecordValue": null
+                          }
+                          ]
+               },
+               {
+               "Caption": "Resumen de Saldo",
+               "Fields": [
+                          {
+                          "Key": "Rendimiento",
+                          "Caption": "Saldo Rendimiento",
+                          "Tooltip": null,
+                          "Type": 0,
+                          "SingleValue": "$2,596,734.59",
+                          "ListValue": null,
+                          "RecordValue": null
+                          },
+                          {
+                          "Key": "TotalBalance",
+                          "Caption": "Saldo Total",
+                          "Tooltip": null,
+                          "Type": 0,
+                          "SingleValue": "$5,409,506.04",
+                          "ListValue": null,
+                          "RecordValue": null
+                          },
+                          {
+                          "Key": "ContingentBalance",
+                          "Caption": "Cuenta Contingente",
+                          "Tooltip": null,
+                          "Type": 0,
+                          "SingleValue": "$0.00",
+                          "ListValue": null,
+                          "RecordValue": null
+                          }
+                          ]
+               },
+               {
+               "Caption": "Distribución de Portafolio",
+               "Fields": [
+                          {
+                          "Key": "Fondos",
+                          "Caption": "Listado de Fondos",
+                          "Tooltip": null,
+                          "Type": 1,
+                          "SingleValue": null,
+                          "ListValue": [
+                                        "PV Strategist Acciones Col",
+                                        "PV Acciones Ecopetrol",
+                                        "PV Strategist Liquidez Col"
+                                        ],
+                          "RecordValue": null
+                          },
+                          {
+                          "Key": "Asset",
+                          "Caption": "Distribución de portafolio",
+                          "Tooltip": null,
+                          "Type": 2,
+                          "SingleValue": null,
+                          "ListValue": null,
+                          "RecordValue": [
+                                          [
+                                           {
+                                           "Caption": "Fondo",
+                                           "Value": "PV Strategist Acciones Col"
+                                           },
+                                           {
+                                           "Caption": "Porcentaje",
+                                           "Value": "36.0300"
+                                           },
+                                           {
+                                           "Caption": "Saldo",
+                                           "Value": "$1,949,290.00"
+                                           },
+                                           {
+                                           "Caption": "Valor de Unidad",
+                                           "Value": "1667.1930"
+                                           },
+                                           {
+                                           "Caption": "Saldo Unidades",
+                                           "Value": "$1,169.68"
+                                           }
+                                           ],
+                                          [
+                                           {
+                                           "Caption": "Fondo",
+                                           "Value": "PV Acciones Ecopetrol"
+                                           },
+                                           {
+                                           "Caption": "Porcentaje",
+                                           "Value": "52.2300"
+                                           },
+                                           {
+                                           "Caption": "Saldo",
+                                           "Value": "$2,825,467.18"
+                                           },
+                                           {
+                                           "Caption": "Valor de Unidad",
+                                           "Value": "702.2150"
+                                           },
+                                           {
+                                           "Caption": "Saldo Unidades",
+                                           "Value": "$4,028.45"
+                                           }
+                                           ],
+                                          [
+                                           {
+                                           "Caption": "Fondo",
+                                           "Value": "PV Strategist Liquidez Col"
+                                           },
+                                           {
+                                           "Caption": "Porcentaje",
+                                           "Value": "11.7300"
+                                           },
+                                           {
+                                           "Caption": "Saldo",
+                                           "Value": "$634,748.86"
+                                           },
+                                           {
+                                           "Caption": "Valor de Unidad",
+                                           "Value": "1450.9984"
+                                           },
+                                           {
+                                           "Caption": "Saldo Unidades",
+                                           "Value": "$437.70"
+                                           }
+                                           ]
+                                          ]
+                          },
+                          {
+                          "Key": "Standing",
+                          "Caption": "Distribuciones de aportes futuros",
+                          "Tooltip": null,
+                          "Type": 2,
+                          "SingleValue": null,
+                          "ListValue": null,
+                          "RecordValue": [
+                                          [
+                                           {
+                                           "Caption": "Fondo",
+                                           "Value": "PV Strategist Conservador"
+                                           },
+                                           {
+                                           "Caption": "Porcentaje",
+                                           "Value": "100.0000"
+                                           }
+                                           ]
+                                          ]
+                          }
+                          ]
+               }
+               ]
+}

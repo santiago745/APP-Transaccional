@@ -1,0 +1,29 @@
+[
+ {
+ "name": "Nombre1 Apellido1",
+ "email": "mail1@notiene.com.co",
+ "cellPhone": "1234567890",
+ "phone": "4567890123",
+ "agencyName": "Nombre Agencia 1",
+ "agencyAddress": "Direccion 1",
+ "photo": "http://igshalon.com/iswp/wp-content/uploads/2014/02/numero-1.jpg"
+ },
+ {
+ "name": "Nombre2 Apellido2",
+ "email": "mail2@notiene.com.co",
+ "cellPhone": "2345678901",
+ "phone": "5678901234",
+ "agencyName": "Nombre Agencia 2",
+ "agencyAddress": "Direccion 2",
+ "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlHMLtjzc2HekTZItPFDMRqvFxuTfGbpvsuXZEB96IWgodD2rkSA"
+ },
+ {
+ "name": "Nombre3 Apellido3",
+ "email": "mail3@notiene.com.co",
+ "cellPhone": "3456789012",
+ "phone": "6789012345",
+ "agencyName": "Nombre Agencia 3",
+ "agencyAddress": "Direccion 3",
+ "photo": "http://mensagens.culturamix.com/blog/wp-content/gallery/romantismo-e-seducao/romantismo-e-seducao-3.jpg"
+ }
+]

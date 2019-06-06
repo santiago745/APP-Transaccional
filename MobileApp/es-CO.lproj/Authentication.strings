@@ -1,0 +1,123 @@
+
+/* Class = "UIButton"; normalTitle = "Iniciar Sesión"; ObjectID = "3fb-bY-iiB"; */
+"3fb-bY-iiB.normalTitle" = "Iniciar Sesión";
+
+/* Class = "UILabel"; text = "Si aún no lo tiene, comuníquese con nuestros analistas del Contact Center al 658 4000 en Bogotá, o al 018000 517526 a nivel nacional, de lunes a viernes de 8:00am a 7:00pm y sábados de 9:00am a 1:00pm"; ObjectID = "4Ef-G8-QwQ"; */
+"4Ef-G8-QwQ.text" = "Si aún no lo tiene, comuníquese con nuestros analistas del Contact Center al 658 4000 en Bogotá, o al 018000 517526 a nivel nacional, de lunes a viernes de 8:00am a 7:00pm y sábados de 9:00am a 1:00pm";
+
+/* Class = "UIBarButtonItem"; title = "Acepto"; ObjectID = "4fw-Sq-fqz"; */
+"4fw-Sq-fqz.title" = "Acepto";
+
+/* Class = "UIButton"; normalTitle = "Continuar"; ObjectID = "4iU-08-ioD"; */
+"4iU-08-ioD.normalTitle" = "Continuar";
+
+/* Class = "UILabel"; text = "Flujos de caja"; ObjectID = "4o5-e9-qiX"; */
+"4o5-e9-qiX.text" = "Flujos de caja";
+
+/* Class = "UITextField"; placeholder = "Fecha de Nacimiento"; ObjectID = "6bb-dj-Trc"; */
+"6bb-dj-Trc.placeholder" = "Fecha de Nacimiento";
+
+/* Class = "UITextField"; placeholder = "Tipo de Documento"; ObjectID = "7mf-yv-oA8"; */
+"7mf-yv-oA8.placeholder" = "Tipo de Documento";
+
+/* Class = "UILabel"; text = "¿Cuál es el segundo nombre de su hermano/hermana mayor ?"; ObjectID = "9oG-Ch-TCN"; */
+"9oG-Ch-TCN.text" = "¿Cuál es el segundo nombre de su hermano/hermana mayor ?";
+
+/* Class = "UILabel"; text = "Cambiar contraseña"; ObjectID = "FNU-Ns-FX2"; */
+"FNU-Ns-FX2.text" = "Cambiar contraseña";
+
+/* Class = "UIButton"; normalTitle = "Continuar"; ObjectID = "FXH-Ma-nLp"; */
+"FXH-Ma-nLp.normalTitle" = "Continuar";
+
+/* Class = "UITextField"; placeholder = "Respuesta"; ObjectID = "ItK-eU-qXG"; */
+"ItK-eU-qXG.placeholder" = "Respuesta";
+
+/* Class = "UIButton"; normalTitle = "Continuar"; ObjectID = "IxW-M9-Z4Y"; */
+"IxW-M9-Z4Y.normalTitle" = "Continuar";
+
+/* Class = "UITextField"; placeholder = "Correo Electrónico"; ObjectID = "JIG-0V-JnJ"; */
+"JIG-0V-JnJ.placeholder" = "Correo Electrónico";
+
+/* Class = "UITextField"; placeholder = "Nombre de usuario"; ObjectID = "P7M-kY-7Sw"; */
+"P7M-kY-7Sw.placeholder" = "Nombre de usuario";
+
+/* Class = "UITextField"; text = "77000221"; ObjectID = "P7M-kY-7Sw"; */
+"P7M-kY-7Sw.text" = "77000221";
+
+/* Class = "UIButton"; normalTitle = "Continuar"; ObjectID = "QF7-Dn-axy"; */
+"QF7-Dn-axy.normalTitle" = "Continuar";
+
+/* Class = "UILabel"; text = "Para restablecer su contraseña y enviarle una nueva, debe tener registrado su correo electrónico en nuestros sistemas de información."; ObjectID = "SE6-sj-JKw"; */
+"SE6-sj-JKw.text" = "Para restablecer su contraseña y enviarle una nueva, debe tener registrado su correo electrónico en nuestros sistemas de información.";
+
+/* Class = "UILabel"; text = "Hemos registrado las siguientes preguntas en nuestros sistemas de información."; ObjectID = "STr-4v-YYR"; */
+"STr-4v-YYR.text" = "Hemos registrado las siguientes preguntas en nuestros sistemas de información.";
+
+/* Class = "UILabel"; text = "Apreciado Cliente"; ObjectID = "ScH-uR-erL"; */
+"ScH-uR-erL.text" = "Apreciado Cliente";
+
+/* Class = "UILabel"; text = "Recordar mi usuario"; ObjectID = "TB6-eH-a1b"; */
+"TB6-eH-a1b.text" = "Recordar mi usuario";
+
+/* Class = "UILabel"; text = "Guía de canales"; ObjectID = "Wst-AT-uRl"; */
+"Wst-AT-uRl.text" = "Guía de canales";
+
+/* Class = "UILabel"; text = "Revista"; ObjectID = "XmB-r1-TJa"; */
+"XmB-r1-TJa.text" = "Revista";
+
+/* Class = "UIButton"; normalTitle = "¿Olvidó su contraseña?"; ObjectID = "Xn6-9r-K70"; */
+"Xn6-9r-K70.normalTitle" = "¿Olvidó su contraseña?";
+
+/* Class = "UITextField"; placeholder = "Contraseña"; ObjectID = "bm3-Qq-8GO"; */
+"bm3-Qq-8GO.placeholder" = "Contraseña";
+
+/* Class = "UITextField"; text = "12"; ObjectID = "bm3-Qq-8GO"; */
+"bm3-Qq-8GO.text" = "12";
+
+/* Class = "UILabel"; text = "¿Cuál es el nombre de su abuelo paterno ?"; ObjectID = "bmI-Sx-naM"; */
+"bmI-Sx-naM.text" = "¿Cuál es el nombre de su abuelo paterno ?";
+
+/* Class = "UILabel"; text = "Diligencie los campos para validar sus datos en nuestros sistemas de información."; ObjectID = "cHS-SX-2c7"; */
+"cHS-SX-2c7.text" = "Diligencie los campos para validar sus datos en nuestros sistemas de información.";
+
+/* Class = "UILabel"; text = "Simuladores"; ObjectID = "cHV-jV-TmC"; */
+"cHV-jV-TmC.text" = "Simuladores";
+
+/* Class = "UIButton"; normalTitle = "Finalizar"; ObjectID = "fpr-ew-wJG"; */
+"fpr-ew-wJG.normalTitle" = "Finalizar";
+
+/* Class = "UIBarButtonItem"; title = "No Acepto"; ObjectID = "gTt-Wd-hRx"; */
+"gTt-Wd-hRx.title" = "No Acepto";
+
+/* Class = "UITextField"; placeholder = "Número de Documento"; ObjectID = "jor-hu-HUw"; */
+"jor-hu-HUw.placeholder" = "Número de Documento";
+
+/* Class = "UILabel"; text = "Rentabilidad"; ObjectID = "lDt-zt-4f5"; */
+"lDt-zt-4f5.text" = "Rentabilidad";
+
+/* Class = "UITextField"; placeholder = "Confirmación de respuesta"; ObjectID = "lVo-fy-Nza"; */
+"lVo-fy-Nza.placeholder" = "Confirmación de respuesta";
+
+/* Class = "UIButton"; normalTitle = "Finalizar"; ObjectID = "lsk-Ix-XPf"; */
+"lsk-Ix-XPf.normalTitle" = "Finalizar";
+
+/* Class = "UILabel"; text = "Sus preguntas fueron validadas y le hemos enviado a su correo la nueva contraseña."; ObjectID = "nZ4-Al-QzP"; */
+"nZ4-Al-QzP.text" = "Sus preguntas fueron validadas y le hemos enviado a su correo la nueva contraseña.";
+
+/* Class = "UITextView"; text = "Para continuar el proceso de registro debe ingresar una nueva contraseña"; ObjectID = "ndK-ut-eeE"; */
+"ndK-ut-eeE.text" = "Para continuar el proceso de registro debe ingresar una nueva contraseña";
+
+/* Class = "UIButton"; normalTitle = "Cancelar"; ObjectID = "nyA-cg-jMi"; */
+"nyA-cg-jMi.normalTitle" = "Cancelar";
+
+/* Class = "UILabel"; text = "Apreciado Cliente"; ObjectID = "tci-ot-ql0"; */
+"tci-ot-ql0.text" = "Apreciado Cliente";
+
+/* Class = "UIButton"; normalTitle = "Aceptar"; ObjectID = "wM5-Te-S0n"; */
+"wM5-Te-S0n.normalTitle" = "Aceptar";
+
+/* Class = "UILabel"; text = "Recuerde que el sistema le pedirá cambiarla una vez ingrese a la sucursal."; ObjectID = "wih-zN-dbw"; */
+"wih-zN-dbw.text" = "Recuerde que el sistema le pedirá cambiarla una vez ingrese a la sucursal.";
+
+/* Class = "UILabel"; text = "Informes"; ObjectID = "xfR-3K-jA5"; */
+"xfR-3K-jA5.text" = "Informes";

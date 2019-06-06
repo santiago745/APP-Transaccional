@@ -1,0 +1,267 @@
+//
+//  OMRegisterQuestionsViewController.m
+//  MobileApp
+//
+//  Created by Armando Restrepo on 3/18/15.
+//  Copyright (c) 2015 Old Mutual. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+#import "OMRegisterQuestionsViewController.h"
+#import "IGAuthenticationResponse.h"
+#import "IGMobileApp.h"
+#import "IGQuestion.h"
+#import "OMShowRegisteredQuestionsViewController.h"
+
+@interface OMRegisterQuestionsViewController (){
+    NSMutableArray *randomQuestions, *totalQuestions, *pendingResponseQuestions, *userArraySelectedQuestions;
+    IGQuestion *singleQuestion, *selectedQuestion;
+    IGAnswer *selectedAnswer;
+    IGAuthenticationResponse *currentAuthResponse;
+    UIFont *cellFont;
+    UIView *bgSelectedCellColorView;
+    int currentStep;
+}
+
+@end
+
+@implementation OMRegisterQuestionsViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    
+    self.tblQuestions.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
+
+    [self.myScrollView setContentOffset:CGPointZero animated:YES];
+    [self.myScrollView setContentOffset:CGPointMake(0, -self.myScrollView.contentInset.top) animated:YES];
+
+    currentAuthResponse = [IGMobileApp sharedInstance].currentAuthenticationResponse;
+    singleQuestion = [[IGQuestion alloc]init];
+    userArraySelectedQuestions = [[NSMutableArray alloc]init];
+    bgSelectedCellColorView = [[UIView alloc] init];
+    pendingResponseQuestions = [[NSMutableArray alloc] init];
+    
+    
+    cellFont = IG_TABLEVIEW_CELL_FONT;
+    
+    totalQuestions = [[NSMutableArray alloc]initWithArray:currentAuthResponse.pendingActionRequest.questions];
+    randomQuestions = [self loadRandomQuestions:totalQuestions];
+    
+    UIBarButtonItem *backBtn = [[UIBarButtonItem alloc] initWithImage:[[UIImage imageNamed:@"icon-back"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] style:UIBarButtonItemStylePlain target:self action:@selector(backButtonPressed:)];
+    self.navigationItem.leftBarButtonItem = backBtn;
+    self.navigationItem.hidesBackButton = YES;
+    
+    self.title = @"Preguntas de seguridad";
+    
+    [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor colorWithRed:1.0f/255.0f green:94.0f/255.0f blue:75.0f/255.0f alpha:1.0f]}];
+    
+}
+
+-(void)viewWillAppear:(BOOL)animated{
+    currentStep = 1;
+    [userArraySelectedQuestions removeAllObjects];
+    
+    UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"Apreciado Cliente"
+                                                                   message:@"Para continuar con el inicio de sesión y para su seguridad, es necesario que registre 5 preguntas de seguridad en nuestros sistemas de información."
+                                                            preferredStyle:UIAlertControllerStyleAlert];
+    
+    UIAlertAction* defaultAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault
+                                                          handler:^(UIAlertAction * action) {}];
+    
+    [alert addAction:defaultAction];
+    
+    [self presentViewController:alert animated:YES completion:nil];
+    
+    [self reloadData];
+}
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return [randomQuestions count];
+}
+
+-(UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    UITableViewCell* cell = [tableView dequeueReusableCellWithIdentifier:@"questionsCell"  forIndexPath:indexPath];
+    
+    singleQuestion = [randomQuestions objectAtIndex:indexPath.item];
+    cell.textLabel.text = singleQuestion.text;
+    cell.textLabel.font = cellFont;
+    cell.textLabel.lineBreakMode = NSLineBreakByWordWrapping;
+    cell.textLabel.numberOfLines = 2;
+    cell.textLabel.textColor = [UIColor colorWithRed:48.0f/255.0f green:48.0f/255.0f blue:48.0f/255.0f alpha:1.0f];
+    cell.imageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"icon_num_%ld", indexPath.row + 1]];
+    bgSelectedCellColorView.backgroundColor = IG_TABLEVIEW_CELL_BACKGROUND_COLOR;
+    [cell setSelectedBackgroundView:bgSelectedCellColorView];
+    return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath*)indexPath{
+    UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
+    cell.textLabel.textColor = [UIColor whiteColor];
+    cell.imageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"icon_num_%ld_white", indexPath.row + 1]];
+    //mark selected question
+    selectedAnswer = [[IGAnswer alloc]init];
+    selectedQuestion = [randomQuestions objectAtIndex: indexPath.row];
+    selectedAnswer.questionId = selectedQuestion.questionId;
+}
+
+-(void)tableView:(UITableView *)tableView didDeselectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
+    cell.textLabel.textColor = cell.textLabel.textColor = [UIColor colorWithRed:48.0f/255.0f green:48.0f/255.0f blue:48.0f/255.0f alpha:1.0f];
+    cell.imageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"icon_num_%ld", indexPath.row + 1]];
+    
+    //add again unselected question
+}
+
+-(IBAction)backButtonPressed:(id)sender{
+    [self.navigationController popToRootViewControllerAnimated:YES];
+}
+
+- (NSUInteger)supportedInterfaceOrientations{
+    return UIInterfaceOrientationMaskPortrait;
+}
+
+-(NSMutableArray *) loadRandomQuestions: (NSMutableArray *) questions
+{
+    NSMutableArray * randomizedQuestions;
+     randomizedQuestions = [self getRandomQuestions:questions];
+    
+    return randomizedQuestions;
+}
+
+-(NSMutableArray *) getRandomQuestions:(NSMutableArray *)questionsArray
+{
+    int remainingItems = 4;
+    NSMutableArray *selectedQuestions = [[NSMutableArray alloc]init];
+    
+    if ([questionsArray count] >= remainingItems)
+    {
+        while (remainingItems > 0) {
+            
+            singleQuestion = [questionsArray objectAtIndex: arc4random() % [questionsArray count]];
+         
+            if (![selectedQuestions containsObject: singleQuestion])
+            {
+                [selectedQuestions addObject: singleQuestion];
+                remainingItems --;
+            }
+        }
+    }
+    
+    return selectedQuestions;
+}
+
+-(void) reloadData
+{
+<<<<<<< Updated upstream
+    self.txtAnswer.text = @"";
+    self.txtConfirmAnswer.text = @"";
+=======
+>>>>>>> Stashed changes
+    [self.txtAnswer becomeFirstResponder];
+    self.imageSteps.image = [UIImage imageNamed:[NSString stringWithFormat:@"question-step-%d", currentStep]];
+    selectedQuestion = [[IGQuestion alloc]init];
+    randomQuestions = [self loadRandomQuestions:totalQuestions];
+    [self.tblQuestions reloadData];
+    
+}
+
+- (IBAction)btnAcceptAnswer:(id)sender {
+    
+    NSString *errorMessage = [self validateQuestions];
+    
+    if (errorMessage) {
+        
+        [[[UIAlertView alloc] initWithTitle:nil message:errorMessage delegate:nil cancelButtonTitle:nil otherButtonTitles:@"Ok", nil] show];
+        return;
+        
+    } else {
+        
+        selectedAnswer.text = self.txtAnswer.text;
+        [pendingResponseQuestions addObject:selectedAnswer];
+        [userArraySelectedQuestions addObject:selectedQuestion];
+        
+        if (currentStep == 5) {
+            
+            [self createAuthRequestWithArray:pendingResponseQuestions];
+            [self performSegueWithIdentifier:@"showRegisteredQuestionsSegue" sender:nil];
+            
+        } else {
+            
+            [totalQuestions removeObject:selectedQuestion];
+            currentStep++;
+            [self reloadData];
+        }
+        
+    }
+}
+
+- (NSString *)validateQuestions {
+    
+    NSString *errorMessage;
+    NSString *validationRegex = IG_REGISTER_QUESTION_VALIDATION;
+    
+    if (selectedQuestion.text == nil) {
+        errorMessage = @"Debe seleccionar una pregunta";
+    } else if (!(self.txtAnswer.text.length >= 1)){
+        errorMessage = @"Debe ingresar una respuesta";
+    } else if (![self assertRegex:self.txtAnswer.text withRegex:validationRegex]) {
+        errorMessage = @"Debe ingresar mínimo 3 caracteres, utilice únicamente letras y números";
+    } else if (!(self.txtConfirmAnswer.text.length >= 1)) {
+        errorMessage = @"Debe ingresar una confirmación de la respuesta";
+    } else if (![self.txtAnswer.text isEqualToString:self.txtConfirmAnswer.text]){
+        errorMessage = @"Las respuestas no coinciden";
+    }
+    
+    return errorMessage;
+}
+
+- (BOOL)assertRegex:(NSString*)stringToSearch withRegex:(NSString*)regexString {
+    NSPredicate *regex = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", regexString];
+    return [regex evaluateWithObject:stringToSearch];
+}
+
+-(void)createAuthRequestWithArray:(NSMutableArray *)answersArray
+{
+    IGAuthenticationRequest *authRequest = [[IGAuthenticationRequest alloc]init];
+    IGPendingActionResponse *pendingResponse = [[IGPendingActionResponse alloc] init];
+
+    //Authentication request
+    authRequest = [IGMobileApp sharedInstance].currentAuthenticationRequest;
+    
+    //Pending action response
+    pendingResponse.name = currentAuthResponse.pendingActionRequest.name;
+    pendingResponse.failedAttempts = currentAuthResponse.pendingActionRequest.failAttempts;
+    pendingResponse.type = currentAuthResponse.pendingActionRequest.pendingActionType;
+    
+    pendingResponse.answers = answersArray;
+    authRequest.pendingActionResponse = pendingResponse;
+    [IGMobileApp sharedInstance].selectedQuestions = userArraySelectedQuestions;
+    
+}
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    OMShowRegisteredQuestionsViewController *destVc = segue.destinationViewController;
+    destVc.delegate = self;
+}
+
+
+//hide keyboard on screen tap
+- (void) touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    [[self view] endEditing:YES];
+}
+
+-(void)finishedRegisteringQuestions{
+    if ([self.delegate respondsToSelector:@selector(finishedRegisteringQuestions)]) {
+        [self.delegate finishedRegisteringQuestions];
+        [self dismissViewControllerAnimated:YES completion:nil];
+    }
+}
+
+@end

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>664447769278-imo6vktdhmrnktg3nsshvv5d40l2l7ve.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.664447769278-imo6vktdhmrnktg3nsshvv5d40l2l7ve</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAnqluAju0rT8RcxKk6kfQYoQ0Sxe2YPeI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>664447769278</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.oldmutual.MobileApp</string>
+	<key>PROJECT_ID</key>
+	<string>mobileappios-8603d</string>
+	<key>STORAGE_BUCKET</key>
+	<string>mobileappios-8603d.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:664447769278:ios:86e77a9e360bb1d6</string>
+	<key>DATABASE_URL</key>
+	<string>https://mobileappios-8603d.firebaseio.com</string>
+</dict>
+</plist>

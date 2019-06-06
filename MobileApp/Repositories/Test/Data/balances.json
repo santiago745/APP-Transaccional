@@ -1,0 +1,273 @@
+[
+    {
+        "key": "FIDU",
+        "caption": "Old Mutual Fiduciaria S.A.",
+        "totalBalance": "$31,142,181.24",
+        "products": [
+            {
+                "Key": "FCO",
+                "Caption": "Old Mutual Fondo de Inversión Colectiva Efectivo",
+                "TotalBalance": "$31,142,181.24",
+                "Contracts": [
+                    {
+                        "Number": "301000179078",
+                        "ProductCode": "FCO",
+                        "PlanCode": "01   ",
+                        "Fields": [
+                            {
+                                "Key": "NombreComercialProducto",
+                                "Caption": "Producto",
+                                "Value": "Old Mutual Efectivo",
+                                "DataType": 0
+                            },
+                            {
+                                "Key": "NombreContrato",
+                                "Caption": "Nombre",
+                                "Value": "Definir Nombre",
+                                "DataType": 0
+                            },
+                            {
+                                "Key": "ReferenciaUnica",
+                                "Caption": "Número",
+                                "Value": "301000179078",
+                                "DataType": 0
+                            },
+                            {
+                                "Key": "Saldo",
+                                "Caption": "Saldo / Reserva de Ahorro",
+                                "Value": "$10,659.39",
+                                "DataType": 1
+                            },
+                            {
+                                "Key": "FechaSaldo",
+                                "Caption": "Fecha de Saldo",
+                                "Value": "22-05-2015",
+                                "DataType": 0
+                            }
+                        ]
+                    },
+                    {
+                        "Number": "301000190063",
+                        "ProductCode": "FCO",
+                        "PlanCode": "01   ",
+                        "Fields": [
+                            {
+                                "Key": "NombreComercialProducto",
+                                "Caption": "Producto",
+                                "Value": "Old Mutual Efectivo",
+                                "DataType": 0
+                            },
+                            {
+                                "Key": "NombreContrato",
+                                "Caption": "Nombre",
+                                "Value": "Definir Nombre",
+                                "DataType": 0
+                            },
+                            {
+                                "Key": "ReferenciaUnica",
+                                "Caption": "Número",
+                                "Value": "301000190063",
+                                "DataType": 0
+                            },
+                            {
+                                "Key": "Saldo",
+                                "Caption": "Saldo / Reserva de Ahorro",
+                                "Value": "$31,131,521.85",
+                                "DataType": 1
+                            },
+                            {
+                                "Key": "FechaSaldo",
+                                "Caption": "Fecha de Saldo",
+                                "Value": "22-05-2015",
+                                "DataType": 0
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "key": "AFPC",
+        "caption": "Old Mutual Pensiones y Cesantías S.A.",
+        "totalBalance": "$129,580,529.75",
+        "products": [
+            {
+                "Key": "MFUND",
+                "Caption": "Old Mutual Fondo de Pensiones Voluntarias",
+                "TotalBalance": "$5,879,136.63",
+                "Contracts": [
+                    {
+                        "Number": "100001006090",
+                        "ProductCode": "MFUND",
+                        "PlanCode": "SKAN ",
+                        "Fields": [
+                            {
+                                "Key": "NombreComercialProducto",
+                                "Caption": "Producto",
+                                "Value": "Old Mutual Fondo de Pensiones Voluntarias",
+                                "DataType": 0
+                            },
+                            {
+                                "Key": "NombreContrato",
+                                "Caption": "Nombre",
+                                "Value": "Andres y Juanse",
+                                "DataType": 0
+                            },
+                            {
+                                "Key": "ReferenciaUnica",
+                                "Caption": "Número",
+                                "Value": "100001006090",
+                                "DataType": 0
+                            },
+                            {
+                                "Key": "Saldo",
+                                "Caption": "Saldo / Reserva de Ahorro",
+                                "Value": "$5,409,506.04",
+                                "DataType": 1
+                            },
+                            {
+                                "Key": "FechaSaldo",
+                                "Caption": "Fecha de Saldo",
+                                "Value": "23-05-2015",
+                                "DataType": 0
+                            }
+                        ]
+                    },
+                    {
+                        "Number": "100001372852",
+                        "ProductCode": "MFUND",
+                        "PlanCode": "SKIN ",
+                        "Fields": [
+                            {
+                                "Key": "NombreComercialProducto",
+                                "Caption": "Producto",
+                                "Value": "Old Mutual Fondo de Pensiones Voluntarias",
+                                "DataType": 0
+                            },
+                            {
+                                "Key": "NombreContrato",
+                                "Caption": "Nombre",
+                                "Value": "Ahorros",
+                                "DataType": 0
+                            },
+                            {
+                                "Key": "ReferenciaUnica",
+                                "Caption": "Número",
+                                "Value": "100001372852",
+                                "DataType": 0
+                            },
+                            {
+                                "Key": "Saldo",
+                                "Caption": "Saldo / Reserva de Ahorro",
+                                "Value": "$469,630.59",
+                                "DataType": 1
+                            },
+                            {
+                                "Key": "FechaSaldo",
+                                "Caption": "Fecha de Saldo",
+                                "Value": "23-05-2015",
+                                "DataType": 0
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Key": "FPOB",
+                "Caption": "Old Mutual Fondo de Pensiones Obligatorias",
+                "TotalBalance": "$123,701,393.12",
+                "Contracts": [
+                    {
+                        "Number": "700000908772",
+                        "ProductCode": "FPOB",
+                        "PlanCode": "01   ",
+                        "Fields": [
+                            {
+                                "Key": "NombreComercialProducto",
+                                "Caption": "Producto",
+                                "Value": "Old Mutual Fondo de Pensiones Obligatorias",
+                                "DataType": 0
+                            },
+                            {
+                                "Key": "ReferenciaUnica",
+                                "Caption": "Número",
+                                "Value": "700000908772",
+                                "DataType": 0
+                            },
+                            {
+                                "Key": "Fondo",
+                                "Caption": "Tipo de Fondo / Portafolio de Inversión",
+                                "Value": "Moderado",
+                                "DataType": 0
+                            },
+                            {
+                                "Key": "Saldo",
+                                "Caption": "Saldo / Reserva de Ahorro",
+                                "Value": "$123,701,393.12",
+                                "DataType": 1
+                            },
+                            {
+                                "Key": "FechaSaldo",
+                                "Caption": "Fecha Saldo",
+                                "Value": "22-05-2015",
+                                "DataType": 0
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "key": "VIDA",
+        "caption": "Old Mutual Seguros de Vida",
+        "totalBalance": "$17,209,646.43",
+        "products": [
+            {
+                "Key": "CREA",
+                "Caption": "Old Mutual Seguro de Vida con Ahorro",
+                "TotalBalance": "$17,209,646.43",
+                "Contracts": [
+                    {
+                        "Number": "110000010340",
+                        "ProductCode": "CREA",
+                        "PlanCode": "01",
+                        "Fields": [
+                            {
+                                "Key": "NombreComercialProducto",
+                                "Caption": "Producto",
+                                "Value": "Old Mutual Seguro de Vida con Ahorro",
+                                "DataType": 0
+                            },
+                            {
+                                "Key": "Poliza",
+                                "Caption": "Número",
+                                "Value": "110000010340",
+                                "DataType": 0
+                            },
+                            {
+                                "Key": "Saldo",
+                                "Caption": "Saldo / Reserva de Ahorro",
+                                "Value": "$17,209,646.43",
+                                "DataType": 1
+                            },
+                            {
+                                "Key": "MontoAsegurado",
+                                "Caption": "Valor Asegurado",
+                                "Value": "32000000.00",
+                                "DataType": 1
+                            },
+                            {
+                                "Key": "FechaSaldo",
+                                "Caption": "Fecha",
+                                "Value": "22-05-2015",
+                                "DataType": 0
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

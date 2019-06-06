@@ -1,0 +1,15 @@
+{
+  "AuthenticationStatus": 1,
+  "AuthenticationMessage": "mensaje",
+  "FailedAttempts": "NO",
+  "Token": "123asgg1566ghh",
+  "DocNumber": "test",
+  "DocType": "C",
+  "PendingActionRequest": null,
+  "PersonInfo": {
+            "Email": "Prueba email",
+            "DocNumber": "test",
+            "DocType": "C",
+            "Name": "Prueba Nombre"
+          }
+}

@@ -1,0 +1,98 @@
+{
+    "Fields": [
+               {
+               "Key": 0,
+               "Caption": "Fecha Efectiva",
+               "DataType": 2,
+               "Value": "2015-03-02"
+               },
+               {
+               "Key": 1,
+               "Caption": "Fecha Proceso",
+               "DataType": 2,
+               "Value": "2015-03-02"
+               },
+               {
+               "Key": 3,
+               "Caption": "Tipo de Transacción",
+               "DataType": 0,
+               "Value": "DEVCOMISION"
+               },
+               {
+               "Key": 4,
+               "Caption": "Valor",
+               "DataType": 1,
+               "Value": "$4,633.13"
+               }
+               ],
+    "Funds": [
+              {
+              "FundName": "Prueba 1",
+              "Fields": [
+                         {
+                         "Key": 1,
+                         "Caption": "Tipo",
+                         "DataType": 0,
+                         "Value": "Comprar"
+                         },
+                         {
+                         "Key": 2,
+                         "Caption": "Número de unidades",
+                         "DataType": 1,
+                         "Value": "2.9149"
+                         },
+                         {
+                         "Key": 3,
+                         "Caption": "Valor Unidad",
+                         "DataType": 1,
+                         "Value": "1589.4491"
+                         },
+                         {
+                         "Key": 4,
+                         "Caption": "Total",
+                         "DataType": 1,
+                         "Value": "$4,633.13"
+                         }
+                         ]
+              },
+              {
+              "FundName": "Prueba 2",
+              "Fields": [
+                         {
+                         "Key": 1,
+                         "Caption": "Tipo 2",
+                         "DataType": 0,
+                         "Value": "Comprar"
+                         },
+                         {
+                         "Key": 2,
+                         "Caption": "Número de unidades 2",
+                         "DataType": 1,
+                         "Value": "2.9149"
+                         },
+                         {
+                         "Key": 3,
+                         "Caption": "Valor Unidad 2",
+                         "DataType": 1,
+                         "Value": "1589.4491"
+                         },
+                         {
+                         "Key": 4,
+                         "Caption": "Total 2",
+                         "DataType": 1,
+                         "Value": "$4,633.13"
+                         }
+                         ]
+              }
+              ],
+    "Documents": [
+                  {
+                  "Caption": "Documento 1",
+                  "DocumentType": "1"
+                  },
+                  {
+                  "Caption": "Documento 2",
+                  "DocumentType": "2"
+                  }
+                  ]
+}

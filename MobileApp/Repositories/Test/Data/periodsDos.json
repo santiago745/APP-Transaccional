@@ -1,0 +1,32 @@
+[
+ {
+ "periodId": "1",
+ "month": "Mayo",
+ "year": "2015"
+ },
+ {
+ "periodId": "2",
+ "month": "Junio",
+ "year": "2015"
+ },
+ {
+ "periodId": "3",
+ "month": "Julio",
+ "year": "2014"
+ },
+ {
+ "periodId": "4",
+ "month": "Agosto",
+ "year": "2013"
+ },
+ {
+ "periodId": "5",
+ "month": "Septiembre",
+ "year": "2012"
+ },
+ {
+ "periodId": "6",
+ "month": "Octubre",
+ "year": "2011"
+ }
+]
